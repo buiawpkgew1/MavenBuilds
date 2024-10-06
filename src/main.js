@@ -302,7 +302,7 @@ async function moveLogFile(repoOwner, repo, branch, latestCommitHash){
  */
 async function commitPushToBuildsRepo(repos){
     return new Promise(async (resolve, reject) => {
-        const setConfUser = `git config user.name FN-FAL113 && git config user.email ${process.env.EMAIL}`
+        const setConfUser = `git config user.name buiawpkgew1 && git config user.email ${process.env.EMAIL}`
         const gitCommit = `git commit -m "${process.env.ACTION_NAME} #${process.env.RUN_ID}"`
         
         try{
